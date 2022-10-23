@@ -1,0 +1,5 @@
+ "collectCoverage":true   =>to make coverge Folder When Run Npm test 
+ "coverageReporters":["html"], ==> to just return Html Files
+    "coverageDirectory":"reports", // To make Folder Name Called Report insted Of Convergae
+    "collectCoverageFrom":["**/*.{js,tsjsx}"], // to just used js ts jsx Files And Ignore All File
+    "coveragePathIgnorePatterns":["/node_modules/","/build/"] // By Default Node module Are ignore and put All Folder You Want To Ignore Such As Build
